@@ -15,8 +15,9 @@ class Scraper
           students << {name: student_name, location: student_location, profile_url =  student_profile_link
         end 
       end
+      students
     end  
-  end
+
     
         
   
