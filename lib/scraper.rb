@@ -30,7 +30,9 @@ class Scraper
               student[:linkedin] = link 
             if link.include?("github")
               student[:github] = link 
-            if link.include?  
+            if link.include?("twitter")
+              student[:twitter] = link 
+            if  
     
   end
 
